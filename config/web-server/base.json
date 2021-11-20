@@ -1,0 +1,21 @@
+{
+  "ip": "",
+  "port": 9000,
+  "$ROOT_DIR": "/home/artem/PycharmProjects/PythonWebserver",
+  "$static_files_path": "$ROOT_DIR/static",
+  "ssl": {
+    "status": true,
+    "key_file": "/path/to/key/file",
+    "cert_file": "/path/to/cert/file"
+  },
+  "logs": {
+    "$server_log_dir": "$ROOT_DIR/log",
+    "server_request_logs": "$server_log_dir/request",
+    "server_request_err_logs": "$server_log_dir/err-request",
+    "server_core_logs": "$server_log_dir/core",
+    "server_core_err_logs": "$server_log_dir/err-core"
+  },
+  "virtual_hosts": {
+    "localhost": "include:web-server/virtual_hosts/localhost/web"
+  }
+}

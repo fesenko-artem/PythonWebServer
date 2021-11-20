@@ -1,0 +1,25 @@
+{
+      "domain": "localhost",
+      "package": "localhost",
+      "controller": "localhost",
+      "route": "localhost",
+      "addr": "172.0.0.1",
+      "$files_path": "localhost",
+      "template_path": "$files_path/static/template",
+      "content_path": "$files_path/static/content",
+      "database_list": {
+        "main": {
+          "driver": "pymysql",
+          "host": "localhost",
+          "db_name": "py_server",
+          "user_name": "admin",
+          "password": "vinc093290193",
+          "port": 3306,
+          "charset": "utf8"
+        }
+      },
+      "log_settings": {
+        "request_log": "$server_log_dir/localhost/request",
+        "request_err_log": "$server_log_dir/localhost/err-request"
+      }
+    }

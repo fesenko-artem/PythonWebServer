@@ -1,0 +1,8 @@
+{
+  "user": "py-server",
+  "group": "py-server",
+  "BASE_DIR": "/home/artem/PycharmProjects/PythonWebServer",
+  "web_server": "include:web-server/base",
+  "process": "include:process",
+  "dependency": "include:dependency"
+}
